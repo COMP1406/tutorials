@@ -5,7 +5,11 @@
 ## Objectives  
 Basic Java programming: input, output, arrays, Strings, control flow. 
 
+## Attendance Quiz
 
+Please log on to cuLearn using on of the computer in the tutorial room and complete the attendance quiz. You can only access the quiz if you log in using one of the computers in the lab. You cannot use a laptop for this. This is a time limited quiz. Be sure to do this as soon as you arrive.
+
+At the end of the tutorial a TA will assign you a grade, call it G, which is 0, 1 or 2, depending on the progress you make during the tutorial. If you spend your time reading mail and chatting with your friends you will receive 0. If you have completed the attendance quiz on time then G will be your tutorial grade. If you have not completed the attendance quiz on time, then your tutorial grade will be max(0, G - 1/2). Each tutorial grade will therefore be one of 0, 0.5, 1.5 or 2.
 
 ## Play Computer [10 minutes]  
 
@@ -41,7 +45,7 @@ some bugs in them.  They might be compile-time errors, run-time errors, or logic
 
 Try to compile and run the `Bugs1.java` file. The `Bugs1` program is supposed to be like the hello world program you are familiar with.  
 
-If you are usinf DrJava, the error message might be a bit confusing. Using an IDE, such a DrJava, can help to make programming easier.  But, they are also software themselves and might have their own bugs associated with them or might not always work perfectly. In this case, in the Interactions window, after compiling the program, trying typing `java Bugs1` instead of `run Bugs1`.  The use of `run` is just a feature of DrJava to make running programs simpler but it is not exactly the same as using `java Bugs1`. The error message when calling the JVM directly (using java instead of run) in this case is more informative than DrJava's run command. 
+If you are using   DrJava, the error message might be a bit confusing. Using an IDE, such a DrJava, can help to make programming easier.  But, they are also software themselves and might have their own bugs associated with them or might not always work perfectly. In this case, in the Interactions window, after compiling the program, trying typing `java Bugs1` instead of `run Bugs1`.  The use of `run` is just a feature of DrJava to make running programs simpler but it is not exactly the same as using `java Bugs1`. The error message when calling the JVM directly (using java instead of run) in this case is more informative than DrJava's run command. 
  
 Try to compile and run `Bugs2.java`. Where exactly did the program  crash? The compiler tells you this information.  The error message you get should look  something like 
 
@@ -56,7 +60,7 @@ java.lang.NullPointerException
 
 The first line tells you what kind of error crashed the program and the second linetells you exactly where in the code the program crashed.  Thus, we know it crashed in the class `Bugs2`, in the `main` method, on line 20.
 
-Even when you know which line a program crashes on, we might not know exactly where in that line the problem is  Try modifying the offending line (line 20) in the program to be two lines: 
+Even when you know which line a program crashes on, we might not know exactly where in that line the problem is. Try modifying the offending line (line 20) in the program to be two lines: 
 
 ```
 System.out.println("words[i] is " + words[i]);
