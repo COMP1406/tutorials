@@ -77,7 +77,7 @@ comment block.  Here some simple rules
 
 Read the Javadoc Comments and Javadoc Tags sections of the following short tutorial  
 
-[http://students.cs.byu.edu/~cs240ta/fall2012/tutorials/javadoctutorial.html](http://students.cs.byu.edu/~cs240ta/fall2012/tutorials/javadoctutorial.html)
+[https://students.cs.byu.edu/~cs240ta/summer2017/tutorials/javadoctutorial.php](https://students.cs.byu.edu/~cs240ta/summer2017/tutorials/javadoctutorial.php)
 
 
 Skim through the Oracle documentation for writing Javadoc comments 
