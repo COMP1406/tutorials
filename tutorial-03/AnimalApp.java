@@ -28,12 +28,14 @@ public class AnimalApp{
 		/* some animals */
 		Animal[] animals = new Animal[SIZE];
 
-		/* randonly pick a cat or dog */
+		/* randonly pick a cat or dog                */
+		/* use random names from the `names` array   */
+		/* use random birth years                    */
 		for(int i=0; i<SIZE; i+=1){
 			if(Math.random() < 0.5){
-				animals[i] = new Cat( names[rnd.nextInt(names.length)],                      rnd.nextInt(12) + 2);
+				animals[i] = new Cat( names[rnd.nextInt(names.length)], rnd.nextInt(12) + 2000);
 			}else{
-				animals[i] = new Dog( names[rnd.nextInt(names.length)],                      rnd.nextInt(14) + 2);
+				animals[i] = new Dog( names[rnd.nextInt(names.length)], rnd.nextInt(14) + 2000);
 			}
 		}
 	
