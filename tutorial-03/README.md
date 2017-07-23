@@ -75,7 +75,7 @@ comment block.  Here some simple rules
 - You can use basic HTML tags to help format the text.  For example, `<code>main</code>` will format ``main'' in code format. Use `<p>` to start a new paragraph (with a blank line).
 
 
-Read the Javadoc Comments and Javadoc Tags sections of the following short tutorial  
+Read the Javadoc Comments and Javadoc Tags sections of the following short tutorial (from CS240 at Brigham Young University)
 
 [https://students.cs.byu.edu/~cs240ta/winter2017/tutorials/javadoctutorial.php](https://students.cs.byu.edu/~cs240ta/winter2017/tutorials/javadoctutorial.php)
 
