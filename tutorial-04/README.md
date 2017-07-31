@@ -76,7 +76,7 @@ ArrayList<Integer> ilist = new ArrayList<Integer>();
 
 ## HashSet
 
-The `HashSet` class in the JCF implements the Set ADT. A set is an unordered collection of unique items. Imprtant methods include `add`, `contains`, `remove`, `isEmpty` and `size`.
+The `HashSet` class in the JCF implements the Set ADT. A set is an unordered collection of unique items. Important methods include `add`, `contains`, `remove`, `isEmpty` and `size`.
 
 
 [https://docs.oracle.com/javase/8/docs/api/java/util/HashSet.html](https://docs.oracle.com/javase/8/docs/api/java/util/HashSet.html)
